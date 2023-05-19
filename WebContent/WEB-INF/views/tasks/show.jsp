@@ -9,10 +9,7 @@
 
                 <table>
                     <tbody>
-                        <%--<tr>
-                            <th>タイトル</th>
-                            <td><c:out value="${task.title}" /></td>
-                        </tr> --%>
+
                         <tr>
                             <th>タスク</th>
                             <td><c:out value="${task.content}" /></td>

@@ -23,14 +23,7 @@ public class TaskValidator {
         return errors;
     }
 
-    // タイトルの必須入力チェック
-    /*private static String validateTitle(String title) {
-        if(title == null || title.equals("")) {
-            return "タイトルを入力してください。";
-        }
 
-        return "";
-    }*/
 
     // タスクの必須入力チェック
     private static String validateContent(String content) {
